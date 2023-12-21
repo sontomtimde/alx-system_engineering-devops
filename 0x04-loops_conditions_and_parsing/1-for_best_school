@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
-
-# Define the number of times to print
-num_times=10
-
-for ((i = 0; i < $num_times; i++)); do
-    echo "Best School"
+#"Best School" to be printed ten times
+for ((i = 0; i < 10; i++)); do
+    	echo "Best School"
 done
