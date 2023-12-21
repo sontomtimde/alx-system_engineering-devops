@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# Define the number of times to print
+num_times=10
+
+for ((i = 0; i < $num_times; i++)); do
+    echo "Best School"
+done
