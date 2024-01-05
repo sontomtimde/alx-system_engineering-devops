@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
-# A regular expression that matches 'h', followed by zero or more 'b', then 't', and ending with 'n'
+#!/usr/bin/env bash
+# This script displays listening sockets with the PID and name of the program to which each socket belongs
 
-puts ARGV[0].scan(/hbt*n/).join
+netstat -lp

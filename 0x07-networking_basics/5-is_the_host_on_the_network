@@ -1,4 +1,7 @@
-#!/usr/bin/env ruby
-# A regular expression that matches a string starting with 'h', ending with 'n', and having any single character in between
-
-puts ARGV[0].scan(/h.n/).join
+#!/usr/bin/env bash
+# This script pings an IP address passed as an argument
+if [ "$1" == "" ]; then
+    echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+else
+    ping -c 5 "$1"
+fi
