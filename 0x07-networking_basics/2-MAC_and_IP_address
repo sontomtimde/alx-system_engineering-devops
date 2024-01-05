@@ -1,4 +1,2 @@
-#!/usr/bin/env ruby
-# A regular expression that matches 'hbtn' or 'hbtn'
-
-puts ARGV[0].scan(/hb?tn/).join
+2
+1
